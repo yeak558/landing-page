@@ -1,4 +1,4 @@
-/* init   */
+/* Init Declerations  */
 
 * {
 	box-sizing: border-box;
@@ -15,7 +15,7 @@ ul {
 	list-style-type: none;
 }
 
-/* layout of sections */
+/* Layout Declerations */
 
 body {
 	font-family: Roboto sans-serif;
@@ -39,8 +39,51 @@ header {
 }
 
 .links {
+	font-size: 16px;
+	/* Layout */
 	display: flex;
 	justify-content: center;
+	align-items: flex-start;s
 	gap: 20px;
-	font-size: 16px;
+}
+
+main {
+	/* Basic Properties */
+	background-color: #1f2937;
+	width: 100vw;
+	min-height: 300px;
+	color: white;
+	padding: 60px;
+	/* Layout */
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+}
+
+.main-text {
+	display: flex;
+	flex-direction: column;
+}
+
+/* Specific Declerations */
+
+.main-text h1 {
+	font-size: 48px;
+	font-weight: 900;
+	color: #f9faf8;
+}
+
+.main-text p {
+	color: #e5e7eb;
+	font-size: 18px;
+}
+
+#main-img {
+	width: 600px;
+	height: 300px;
+	background-color: gray;
+}
+
+#sign-up-button {
+	flex-grow: 1;
 }
