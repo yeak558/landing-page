@@ -39,6 +39,12 @@ header {
 	
 }
 
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
 .links {
 	font-size: 16px;
 	font-weight: 1;
@@ -49,7 +55,7 @@ header {
 	gap: 50px;
 }
 
-main {
+.hero {
 	/* Basic Properties */
 	background-color: #1f2937;
 	width: 100vw;
@@ -62,11 +68,45 @@ main {
 	align-items: center;
 }
 
-.main-text {
+.hero-text {
 	display: flex;
 	flex-direction: column;
 	gap: 10px;
 	width: 500px;
+}
+
+.random-info {
+	padding: 50px 15vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 50px
+}
+
+.boxes-container {
+	padding: 50px 5vw;
+	display: flex;
+	justify-content: center;
+	gap: 50px;
+}
+
+/* General Declerations */
+
+.box {
+	border: 2px solid #3882f6;
+	border-radius: 15px;
+	width: 200px;
+	height: 200px;
+}
+
+.box-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.box-text {
+	color: #4b5563;
 }
 
 /* Specific Declerations */
@@ -82,7 +122,7 @@ main {
 	font-size: 18px;
 }
 
-#main-img {
+#hero-img {
 	width: 700px;
 	height: 300px;
 	background-color: #6d747d;
@@ -99,4 +139,10 @@ main {
 	border: 2px solid #3882f6;
 	border-radius: 10px;	
 	font-weight: bold;
+}
+
+.random-info h2 {
+	font-weight: 900;
+	font-size: 36px;
+	color: #1f2937;
 }
